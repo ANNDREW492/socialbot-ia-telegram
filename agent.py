@@ -19,7 +19,7 @@ def generar_respuesta(mensaje_usuario):
                 {"role": "user", "content": mensaje_usuario}
             ],
             max_tokens=150,
-            temperature=0.5,
+            temperature=0.6,
         )
 
         mensaje_respuesta = respuesta['choices'][0]['message']['content'].strip()
