@@ -1,0 +1,12 @@
+# Ignorar el entorno virtual
+venv/
+
+# Ignorar archivos de configuración y claves privadas
+.env
+
+# Ignorar archivos temporales de Python
+__pycache__/
+*.pyc
+
+# Otros archivos generados automáticamente
+.DS_Store
